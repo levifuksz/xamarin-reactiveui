@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinRui.DetailsPage"
+             Title="DetailsPage">
+    <TableView Intent="Data">
+        <TableRoot>
+            <TableSection>
+                <TextCell Text="Name" Detail="{Binding CurrentPerson.Name}" />
+                <TextCell Text="Twitter" Detail="{Binding CurrentPerson.TwitterHandle}" />
+                <TextCell Text="Website" Detail="{Binding CurrentPerson.Website}" />
+                <TextCell Text="Description" Detail="{Binding CurrentPerson.Description}" />
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>

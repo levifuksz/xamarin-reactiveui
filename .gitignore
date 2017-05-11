@@ -1,0 +1,5 @@
+src/packages/*
+src/XamarinRui/XamarinRui/obj/*
+src/XamarinRui/XamarinRui/bin/*
+src/XamarinRui/XamarinRui.Android/obj/*
+src/XamarinRui/XamarinRui.Android/bin/*
